@@ -27,11 +27,14 @@ div.inner {
 	background-color: #7777AA;
 	padding: 10px;
 	border: 1px solid black;
+	position: relative;
 		
 }
 p {
-	padding-top: 10px;
-	text-align: justify-all;
+	/*padding-top: 10px;*/
+	text-align: justify;
+	clear: right;
+
 }
 
 
@@ -44,6 +47,11 @@ p {
 	font-weight: bold;
 	padding: 5px;
 	font-size: 1.25em;
+	position: relative;
+	top: -11px;
+	right: -11px;
+	float:right;
+
 }
 .running {
 	background-color: #7755AA;
@@ -54,6 +62,10 @@ p {
 	font-weight: bold;
 	padding: 5px;
 	font-size: 1.25em;
+	position: relative;
+	top: -11px;
+	right: -11px;
+	float:right;
 }
 .climbing {
 	background-color: #095423;
@@ -64,6 +76,10 @@ p {
 	font-weight: bold;
 	padding: 5px;
 	font-size: 1.25em;
+	position: relative;
+	top: -11px;
+	right: -11px;
+	float:right;
 }
 
 .swimming:hover, .swimming:active {
